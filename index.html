@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Café — Every Cup Has a Passport</title>
+  <meta name="description" content="A scroll-driven story of coffee's journey from the highlands of Kaffa to your table at Travel Café.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-theme="dark">
+
+  <!-- ===== Header / progress ===== -->
+  <header class="site-header">
+    <a class="brand" href="#prologue" aria-label="Travel Café — back to the beginning">
+      <img src="assets/logo.svg" alt="" width="36" height="36">
+      <span>Travel Café</span>
+    </a>
+    <p class="chapter-label" aria-live="polite"><span id="chapter-num">Prologue</span> <span id="chapter-name">Dawn</span></p>
+    <nav class="chapter-nav" aria-label="Chapters">
+      <a href="#prologue" data-label="Dawn"></a>
+      <a href="#origins" data-label="Origins"></a>
+      <a href="#voyage" data-label="The Voyage"></a>
+      <a href="#roast" data-label="The Roast"></a>
+      <a href="#pour" data-label="The Pour"></a>
+      <a href="#menu" data-label="The Menu"></a>
+      <a href="#window" data-label="The Window"></a>
+      <a href="#visit" data-label="Visit"></a>
+    </nav>
+    <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+  </header>
+
+  <main>
+
+    <!-- ===================== PROLOGUE: DAWN ===================== -->
+    <section class="scene" id="prologue" style="--len:260vh" data-theme="dark" data-num="Prologue" data-name="Dawn">
+      <div class="stage">
+        <svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+          <defs>
+            <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#10172e" data-tw="0-.4: stop #10172e #6a4a7a; .4-.75: stop #6a4a7a #f2a477"/>
+              <stop offset="1" stop-color="#2a2346" data-tw="0-.4: stop #2a2346 #e98a6b; .4-.75: stop #e98a6b #fbe3bd"/>
+            </linearGradient>
+            <radialGradient id="sunGlow">
+              <stop offset="0" stop-color="#fff2c9"/><stop offset=".35" stop-color="#ffd38a" stop-opacity=".9"/><stop offset="1" stop-color="#ffb26b" stop-opacity="0"/>
+            </radialGradient>
+            <radialGradient id="lampGlow"><stop offset="0" stop-color="#ffd98f" stop-opacity=".9"/><stop offset="1" stop-color="#ffd98f" stop-opacity="0"/></radialGradient>
+            <clipPath id="shutterClip"><rect x="600" y="532" width="400" height="230"/></clipPath>
+          </defs>
+          <rect width="1600" height="900" fill="url(#sky1)"/>
+          <g class="stars" data-tw="0-.45: o 1 0">
+            <circle cx="120" cy="90" r="2"/><circle cx="300" cy="160" r="1.5"/><circle cx="460" cy="70" r="2.2"/><circle cx="640" cy="130" r="1.4"/>
+            <circle cx="900" cy="60" r="2"/><circle cx="1080" cy="150" r="1.6"/><circle cx="1260" cy="80" r="2.4"/><circle cx="1440" cy="170" r="1.5"/>
+            <circle cx="220" cy="260" r="1.3"/><circle cx="1340" cy="280" r="1.3"/><circle cx="760" cy="220" r="1.2"/><circle cx="1520" cy="60" r="1.8"/>
+          </g>
+          <g data-tw="0-.75: y 380 0 o">
+            <circle cx="1210" cy="420" r="260" fill="url(#sunGlow)"/>
+            <circle cx="1210" cy="420" r="92" fill="#ffd89a"/>
+          </g>
+          <!-- skyline -->
+          <g data-tw="0-1: y 0 -30 l; 0-.7: fill #241c38 #c98f74">
+            <path d="M0 640V520h70v-40h60v60h50V460h90v80h40v-60h80v160h60V500h50v-50h40v50h30v140h90V480h70v-40h50v40h40v160h80V520h60v-70h90v70h40v120h70V470h80v60h50v-90h100v200h60V520h70v120z"/>
+          </g>
+          <g data-tw="0-1: y 0 -14 l; 0-.7: fill #1a1428 #9c6250">
+            <path d="M0 700V600h120v-50h80v150h70V580h110v120h50v-90h90v90h120V640h50v60h420V610h70v-50h90v140h80V590h90v110h120v-80h60v80h60z"/>
+          </g>
+          <!-- street -->
+          <rect y="760" width="1600" height="140" fill="#2b1a12"/>
+          <rect y="760" width="1600" height="10" fill="#4a3022"/>
+          <!-- storefront -->
+          <g class="shop" data-tw="0-.3: y 170 0 io; .3-1: s 1 1.1 io">
+            <rect x="560" y="300" width="480" height="460" fill="#5a3324"/>
+            <rect x="540" y="284" width="520" height="24" fill="#3d2218"/>
+            <rect x="550" y="300" width="500" height="10" fill="#7a4a34"/>
+            <g fill="#4b2a1d"><rect x="580" y="330" width="80" height="40"/><rect x="940" y="330" width="80" height="40"/></g>
+            <rect x="640" y="380" width="320" height="64" rx="6" fill="#2b1a12" stroke="#c8a27a" stroke-width="3"/>
+            <text x="800" y="424" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="34" font-weight="600" fill="#f5ecdf" letter-spacing="6">TRAVEL CAFÉ</text>
+            <!-- awning -->
+            <path d="M580 470h440l20 50H560z" fill="#f5ecdf"/>
+            <g fill="#c65d3b"><path d="M580 470h55l-5 50h-60zM690 470h55l-2 50h-58zM800 470h55l2 50h-58zM910 470h55l5 50h-58z"/></g>
+            <path d="M560 520q20 22 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0z" fill="#c65d3b"/>
+            <!-- window + door -->
+            <rect x="600" y="540" width="280" height="214" fill="#2a1a14"/>
+            <rect x="600" y="540" width="280" height="214" fill="#ffcf85" data-tw=".3-.55: o 0 1"/>
+            <g fill="#7a4a2a" opacity=".55" data-tw=".35-.6: o 0 .55">
+              <rect x="630" y="680" width="220" height="8"/><path d="M660 680v-40h30v40zM760 680c0-24 40-24 40 0z"/><circle cx="700" cy="610" r="22"/><rect x="694" y="630" width="12" height="50"/>
+            </g>
+            <path d="M600 600h280M740 540v214" stroke="#3d2218" stroke-width="6"/>
+            <rect x="900" y="560" width="100" height="200" fill="#3d2218"/>
+            <rect x="912" y="574" width="76" height="110" fill="#ffcf85" data-tw=".35-.6: o 0 .9"/>
+            <circle cx="980" cy="700" r="5" fill="#c8a27a"/>
+            <g data-tw=".55-.62: o 1 0"><rect x="920" y="610" width="60" height="22" rx="3" fill="#c65d3b"/><text x="950" y="626" text-anchor="middle" font-size="12" font-family="Work Sans, sans-serif" fill="#fff" font-weight="600">CLOSED</text></g>
+            <g data-tw=".6-.67: o 0 1"><rect x="920" y="610" width="60" height="22" rx="3" fill="#7d8f69"/><text x="950" y="626" text-anchor="middle" font-size="12" font-family="Work Sans, sans-serif" fill="#fff" font-weight="600">OPEN</text></g>
+            <!-- shutter -->
+            <g clip-path="url(#shutterClip)">
+              <g data-tw=".45-.75: y 0 -232">
+                <rect x="600" y="532" width="400" height="230" fill="#8a8f96"/>
+                <g stroke="#6c7178" stroke-width="3">
+                  <path d="M600 552h400M600 574h400M600 596h400M600 618h400M600 640h400M600 662h400M600 684h400M600 706h400M600 728h400M600 750h400"/>
+                </g>
+                <rect x="780" y="744" width="40" height="10" rx="3" fill="#5a5f66"/>
+              </g>
+            </g>
+            <!-- planters -->
+            <g fill="#7d8f69"><circle cx="575" cy="728" r="22"/><circle cx="595" cy="716" r="18"/><circle cx="1025" cy="728" r="22"/><circle cx="1005" cy="716" r="16"/></g>
+            <g fill="#c65d3b"><rect x="562" y="736" width="44" height="26" rx="3"/><rect x="994" y="736" width="44" height="26" rx="3"/></g>
+          </g>
+          <!-- lamp post -->
+          <g data-tw="0-.3: y 170 0 io">
+            <rect x="404" y="470" width="10" height="292" fill="#1b120d"/>
+            <path d="M390 470h38l-8-28h-22z" fill="#1b120d"/>
+            <circle cx="409" cy="490" r="110" fill="url(#lampGlow)" data-tw=".25-.5: o 1 0"/>
+            <circle cx="409" cy="462" r="9" fill="#ffd98f" data-tw=".25-.5: fill #ffd98f #4a3a2a"/>
+          </g>
+        </svg>
+
+        <div class="title-card" data-base="translateX(-50%)" data-tw="0-.22: o 1 0, y 0 -60">
+          <p class="eyebrow">Travel Café · Est. on Wanderer's Lane</p>
+          <h1>Every cup has<br><em>a passport.</em></h1>
+          <p class="scroll-cue"><span>Scroll to begin the journey</span><i aria-hidden="true"></i></p>
+        </div>
+        <div class="copy copy--top">
+          <p class="line" data-tw=".28-.36: o 0 1, y 24 0; .5-.58: o 1 0, y 0 -24"><em>6:00 a.m.</em> The city is still asleep.</p>
+          <p class="line line--day" data-tw=".6-.68: o 0 1, y 24 0; .92-1: o 1 0">But on Wanderer's Lane the shutters are rising, and every cup we pour has already travelled <em>further than most of us ever will.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 01 ORIGINS ===================== -->
+    <section class="scene" id="origins" style="--len:320vh" data-theme="light" data-num="Chapter 01" data-name="Origins">
+      <div class="stage">
+        <svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d9a8"/><stop offset=".6" stop-color="#cfd5b0"/><stop offset="1" stop-color="#9fb08a"/></linearGradient>
+            <radialGradient id="basketGlow"><stop offset="0" stop-color="#fff0b8" stop-opacity=".9"/><stop offset="1" stop-color="#fff0b8" stop-opacity="0"/></radialGradient>
+          </defs>
+          <rect width="1600" height="900" fill="url(#sky2)"/>
+          <circle cx="400" cy="260" r="80" fill="#fff4d6" data-tw="0-1: y 40 -60 l"/>
+          <path d="M-200 520Q100 380 380 470T900 430T1450 450T1900 420V900H-200z" fill="#a9b98f" data-tw="0-1: x 0 -60 l"/>
+          <path d="M-200 600Q200 480 520 580T1100 540T1900 560V900H-200z" fill="#7d8f69" data-tw="0-1: x 0 -140 l"/>
+          <g data-tw="0-1: x 0 -260 l">
+            <path d="M-200 700Q300 600 700 690T1500 650T2100 680V900H-200z" fill="#55684a"/>
+            <g fill="#3f5236">
+              <path d="M140 660c-30-60 10-120 40-130 30 10 70 70 40 130z"/><rect x="176" y="650" width="8" height="40"/>
+              <path d="M1180 640c-26-50 8-100 34-110 26 10 60 60 34 110z"/><rect x="1210" y="632" width="7" height="34"/>
+              <path d="M1700 650c-26-50 8-100 34-110 26 10 60 60 34 110z"/>
+            </g>
+          </g>
+          <rect width="1600" height="900" fill="#f6f1e2" data-tw="0-.45: o .75 0"/>
+          <!-- branch -->
+          <g class="branch" data-tw=".12-.4: x 420 0 o, r 12 0 o">
+            <path d="M1700 180C1450 220 1250 300 1060 420S820 560 760 600" fill="none" stroke="#4a2e1c" stroke-width="18" stroke-linecap="round"/>
+            <g fill="#3f6b3a">
+              <path d="M1320 250c-60-80-10-150 60-160-10 70-20 120-60 160z"/>
+              <path d="M1180 340c40-90 120-110 170-80-60 30-100 60-170 80z"/>
+              <path d="M1040 440c-80-40-100-120-60-170 30 70 50 110 60 170z"/>
+              <path d="M930 500c50-80 130-90 170-50-60 20-100 40-170 50z"/>
+              <path d="M820 580c-80-20-110-90-80-150 30 60 60 100 80 150z"/>
+            </g>
+            <g fill="none" stroke="#2c4a28" stroke-width="2" opacity=".6">
+              <path d="M1320 250c10-50 30-100 60-160M1180 340c50-40 100-70 170-80M1040 440c-20-50-40-110-60-170M930 500c60-30 110-50 170-50M820 580c-30-40-60-90-80-150"/>
+            </g>
+            <!-- cherries -->
+            <g class="cherries">
+              <g data-tw=".56-.66: y 0 330 i, o 1 0 i"><circle cx="1100" cy="400" r="22" data-tw=".2-.32: fill #6f9a3a #e3b23c; .32-.42: fill #e3b23c #c8282e"/><circle cx="1092" cy="392" r="5" fill="#fff" opacity=".45"/></g>
+              <g data-tw=".58-.68: y 0 300 i, o 1 0 i"><circle cx="1140" cy="420" r="20" data-tw=".24-.36: fill #6f9a3a #e3b23c; .36-.46: fill #e3b23c #b51f2a"/><circle cx="1133" cy="412" r="5" fill="#fff" opacity=".45"/></g>
+              <g data-tw=".6-.7: y 0 360 i, o 1 0 i"><circle cx="1075" cy="438" r="21" data-tw=".27-.39: fill #6f9a3a #e3b23c; .39-.49: fill #e3b23c #d1312f"/><circle cx="1068" cy="430" r="5" fill="#fff" opacity=".45"/></g>
+              <g data-tw=".62-.72: y 0 240 i, o 1 0 i"><circle cx="980" cy="500" r="20" data-tw=".3-.42: fill #6f9a3a #e3b23c; .42-.52: fill #e3b23c #c8282e"/><circle cx="973" cy="492" r="5" fill="#fff" opacity=".45"/></g>
+              <g data-tw=".64-.74: y 0 270 i, o 1 0 i"><circle cx="1012" cy="520" r="19" data-tw=".33-.45: fill #6f9a3a #e3b23c; .45-.55: fill #e3b23c #b51f2a"/><circle cx="1005" cy="512" r="5" fill="#fff" opacity=".45"/></g>
+              <g data-tw=".66-.76: y 0 220 i, o 1 0 i"><circle cx="880" cy="558" r="18" data-tw=".35-.47: fill #6f9a3a #e3b23c; .47-.56: fill #e3b23c #d1312f"/><circle cx="874" cy="551" r="4" fill="#fff" opacity=".45"/></g>
+            </g>
+          </g>
+          <!-- basket -->
+          <g class="basket" data-tw=".5-.62: y 380 0 o">
+            <ellipse cx="1000" cy="760" rx="260" ry="90" fill="url(#basketGlow)" data-tw=".8-.92: o 0 1"/>
+            <path d="M820 720h360l-40 150H860z" fill="#b98a4e"/>
+            <g stroke="#8a6232" stroke-width="5" fill="none">
+              <path d="M826 745h348M834 775h332M842 805h316M850 835h300"/>
+              <path d="M870 720l10 150M920 720l5 150M970 720v150M1030 720v150M1080 720l-5 150M1130 720l-10 150"/>
+            </g>
+            <ellipse cx="1000" cy="720" rx="180" ry="26" fill="#5c3a1c"/>
+            <g fill="#c8282e" data-tw=".68-.78: o 0 1"><circle cx="940" cy="712" r="18"/><circle cx="975" cy="706" r="18"/><circle cx="1012" cy="712" r="18"/><circle cx="1050" cy="706" r="18"/><circle cx="1086" cy="714" r="16"/><circle cx="910" cy="716" r="15"/></g>
+            <!-- revealed beans -->
+            <g data-tw=".82-.95: o 0 1, y 30 -40 o, s .6 1.25">
+              <ellipse cx="972" cy="650" rx="26" ry="36" fill="#9fb06a" transform="rotate(-18 972 650)"/>
+              <ellipse cx="1028" cy="650" rx="26" ry="36" fill="#a8b873" transform="rotate(18 1028 650)"/>
+              <path d="M966 622c14 18 14 40 0 58M1034 622c-14 18-14 40 0 58" stroke="#6f7f42" stroke-width="4" fill="none"/>
+            </g>
+          </g>
+        </svg>
+        <div class="copy copy--left">
+          <p class="kicker">Chapter 01 · Origins</p>
+          <p class="line" data-tw="0-.06: o 0 1, y 24 0; .2-.26: o 1 0, y 0 -24">Our story begins <em>2,000 metres up</em>, in the misty forests of Kaffa, Ethiopia.</p>
+          <p class="line" data-tw=".27-.33: o 0 1, y 24 0; .48-.54: o 1 0, y 0 -24">Legend says a goat herder named <em>Kaldi</em> saw his goats dancing after eating bright red cherries.</p>
+          <p class="line" data-tw=".55-.61: o 0 1, y 24 0; .74-.8: o 1 0, y 0 -24">Farmers still pick each cherry <em>by hand</em>, and only once it has turned red.</p>
+          <p class="line" data-tw=".81-.87: o 0 1, y 24 0">Inside every cherry are two green seeds: <em>the beans that will travel the world.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 02 VOYAGE ===================== -->
+    <section class="scene" id="voyage" style="--len:380vh" data-theme="light" data-num="Chapter 02" data-name="The Voyage">
+      <div class="stage stage--paper">
+        <svg class="art map-art" id="map-svg" viewBox="200 30 1200 680" preserveAspectRatio="xMidYMid slice" aria-hidden="true" data-tw="0-.1: o 0 1, s 1.08 1">
+          <image href="assets/world-map.svg" x="0" y="0" width="1600" height="900"/>
+          <path id="route-shadow" fill="none" stroke="#7a5534" stroke-width="5" stroke-linecap="round" opacity=".18"/>
+          <path id="route" fill="none" stroke="#c65d3b" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 12"/>
+          <g id="stamps"></g>
+          <g id="ship">
+            <path d="M-22 4h44l-8 12h-28z" fill="#2b1a12"/>
+            <path d="M-2 4V-30l20 30zM-4 4V-24l-16 26z" fill="#f5ecdf" stroke="#2b1a12" stroke-width="2"/>
+            <path d="M-2 -30l12 -4-12-3z" fill="#c65d3b"/>
+          </g>
+          <g id="compass" transform="translate(330 610)">
+            <g class="compass-rose" data-tw="0-1: r -90 270 l">
+              <circle r="64" fill="#f3e6cc" stroke="#7a5534" stroke-width="2"/>
+              <circle r="52" fill="none" stroke="#7a5534" stroke-width="1" stroke-dasharray="3 4"/>
+              <path d="M0-60L10 0 0 60-10 0z" fill="#2b1a12"/><path d="M0-60L10 0H-10z" fill="#c65d3b"/>
+              <path d="M-60 0L0-8 60 0 0 8z" fill="#7a5534"/>
+            </g>
+            <text y="-74" text-anchor="middle" font-family="Fraunces, serif" font-size="18" fill="#7a5534">N</text>
+          </g>
+        </svg>
+        <div class="voyage-intro" data-tw="0-.06: o 0 1, y 20 0; .12-.18: o 1 0">
+          <p class="kicker">Chapter 02 · The Voyage</p>
+          <h2>Coffee did not<br><em>stay home</em> for long.</h2>
+        </div>
+        <aside class="journal" data-base="rotate(-1.5deg)" data-tw=".1-.16: o 0 1, y 30 0">
+          <p class="journal__year" id="journal-year">c. 850</p>
+          <h3 class="journal__city" id="journal-city">Kaffa</h3>
+          <p class="journal__text" id="journal-text">Where the legend begins.</p>
+          <ol class="journal__dots" id="journal-dots" aria-hidden="true"></ol>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== 03 ROAST ===================== -->
+    <section class="scene" id="roast" style="--len:320vh" data-theme="dark" data-num="Chapter 03" data-name="The Roast">
+      <div class="stage stage--roast">
+        <svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <radialGradient id="ember" cx="50%" cy="80%" r="60%"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".55"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+            <clipPath id="drumWindow"><circle cx="800" cy="430" r="150"/></clipPath>
+            <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b4a40"/><stop offset=".5" stop-color="#3a2c24"/><stop offset="1" stop-color="#241a14"/></linearGradient>
+          </defs>
+          <rect width="1600" height="900" fill="#1b110c"/>
+          <rect width="1600" height="900" fill="url(#ember)" data-tw="0-.6: o .3 1; .75-1: o 1 .6"/>
+          <!-- hopper -->
+          <path d="M720 120h160l-40 90h-80z" fill="url(#metal)" stroke="#6b5444" stroke-width="3"/>
+          <rect x="770" y="205" width="60" height="40" fill="#3a2c24"/>
+          <!-- body -->
+          <rect x="560" y="230" width="480" height="420" rx="40" fill="url(#metal)" stroke="#6b5444" stroke-width="3"/>
+          <g fill="#8a6f5a"><circle cx="600" cy="270" r="6"/><circle cx="1000" cy="270" r="6"/><circle cx="600" cy="610" r="6"/><circle cx="1000" cy="610" r="6"/></g>
+          <circle cx="800" cy="430" r="170" fill="#2a1d16" stroke="#a0805f" stroke-width="10"/>
+          <!-- drum interior -->
+          <g clip-path="url(#drumWindow)">
+            <rect x="640" y="270" width="320" height="320" fill="#1a100b"/>
+            <g class="drum" data-tw="0-1: r 0 720 l">
+              <circle cx="800" cy="430" r="150" fill="transparent"/>
+              <g stroke="#3d2b20" stroke-width="6"><path d="M800 280v300M650 430h300M694 324l212 212M906 324L694 536"/></g>
+              <g id="beans" data-tw="0-.28: fill #8fa35a #b9b061; .28-.45: fill #b9b061 #c9933f; .45-.62: fill #c9933f #8a5530; .62-.85: fill #8a5530 #4a2a18; .85-1: fill #4a2a18 #3a2014"></g>
+            </g>
+            <circle cx="800" cy="430" r="150" fill="#ffffff" opacity=".06"/>
+            <path d="M700 340a140 140 0 0 1 80-50" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".15" fill="none"/>
+          </g>
+          <!-- crack sparks -->
+          <g class="sparks" stroke="#ffd27a" stroke-width="4" stroke-linecap="round" data-tw=".54-.6: o 0 1, s .4 1.3 o; .66-.72: o 1 0">
+            <path d="M800 230v-50M800 630v50M600 430h-50M1000 430h50M660 290l-36-36M940 290l36-36M660 570l-36 36M940 570l36 36"/>
+          </g>
+          <!-- flames -->
+          <g class="flames" data-origin="800px 740px" data-tw="0-.55: sy .5 1.25, o .6 1; .75-1: sy 1.25 .8">
+            <path d="M640 740c-10-40 30-50 20-90 40 30 50 60 30 90z" fill="#ff8a3d"/>
+            <path d="M720 740c-14-50 34-60 22-110 46 36 60 74 34 110z" fill="#ffb347"/>
+            <path d="M800 740c-14-56 38-70 24-124 50 40 64 82 36 124z" fill="#ff8a3d"/>
+            <path d="M880 740c-14-50 34-60 22-110 46 36 60 74 34 110z" fill="#ffb347"/>
+            <path d="M960 740c-10-40 30-50 20-90 40 30 50 60 30 90z" fill="#ff8a3d"/>
+          </g>
+          <rect x="600" y="740" width="400" height="24" rx="6" fill="#3a2c24"/>
+          <rect x="560" y="650" width="480" height="20" fill="#2a1d16"/>
+          <!-- gauge -->
+          <g transform="translate(1200 330)">
+            <circle r="96" fill="#f5ecdf" stroke="#a0805f" stroke-width="8"/>
+            <path d="M-68 48A84 84 0 1 1 68 48" fill="none" stroke="#e9d8bf" stroke-width="10"/>
+            <path d="M30 -78A84 84 0 0 1 68 48" fill="none" stroke="#c65d3b" stroke-width="10"/>
+            <g class="needle" data-tw="0-1: r -125 120 l"><circle r="76" fill="none"/><path d="M-4 0L0 -76 4 0z" fill="#2b1a12"/></g>
+            <circle r="9" fill="#2b1a12"/>
+            <text id="temp" y="56" text-anchor="middle" font-family="Fraunces, serif" font-size="26" font-weight="600" fill="#2b1a12">160°C</text>
+          </g>
+          <g font-family="Work Sans, sans-serif" font-size="15" letter-spacing="3" fill="#e9d8bf" text-anchor="middle">
+            <text x="1200" y="470" data-tw="0-.05: o 0 1; .25-.3: o 1 0">DRYING</text>
+            <text x="1200" y="470" data-tw=".28-.33: o 0 1; .52-.56: o 1 0">MAILLARD</text>
+            <text x="1200" y="470" fill="#ffd27a" data-tw=".54-.58: o 0 1; .7-.74: o 1 0">FIRST CRACK</text>
+            <text x="1200" y="470" data-tw=".72-.76: o 0 1">DEVELOPMENT</text>
+          </g>
+        </svg>
+        <div class="copy copy--left">
+          <p class="kicker">Chapter 03 · The Roast</p>
+          <p class="line" data-tw="0-.06: o 0 1, y 24 0; .22-.28: o 1 0, y 0 -24">In our roastery, beans go in <em>green and grassy.</em></p>
+          <p class="line" data-tw=".29-.35: o 0 1, y 24 0; .5-.55: o 1 0, y 0 -24">At 150°C the sugars caramelise, and the Maillard reaction turns them <em>gold, then cinnamon.</em></p>
+          <p class="line" data-tw=".56-.61: o 0 1, y 24 0; .72-.77: o 1 0, y 0 -24">At 196°C comes <em>first crack.</em> The beans pop like popcorn and the room smells of toast and chocolate.</p>
+          <p class="line" data-tw=".78-.84: o 0 1, y 24 0">We stop at the moment each origin tastes <em>most like home.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 04 POUR ===================== -->
+    <section class="scene" id="pour" style="--len:320vh" data-theme="light" data-num="Chapter 04" data-name="The Pour">
+      <div class="stage stage--cream">
+        <svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <clipPath id="carafeClip"><path d="M720 600h160l30 210a20 20 0 0 1-20 22H710a20 20 0 0 1-20-22z"/></clipPath>
+            <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a4a22"/><stop offset="1" stop-color="#3a1f12"/></linearGradient>
+          </defs>
+          <rect width="1600" height="900" fill="#f3e6d2"/>
+          <rect y="830" width="1600" height="70" fill="#d9c2a2"/>
+          <rect y="826" width="1600" height="6" fill="#b89a74"/>
+          <!-- tiles -->
+          <g stroke="#e6d4ba" stroke-width="2"><path d="M0 200h1600M0 400h1600M0 600h1600M200 0v830M400 0v830M600 0v830M1000 0v830M1200 0v830M1400 0v830"/></g>
+          <!-- stand -->
+          <rect x="700" y="560" width="200" height="16" rx="4" fill="#7a5534"/>
+          <!-- carafe -->
+          <path d="M720 600h160l30 210a20 20 0 0 1-20 22H710a20 20 0 0 1-20-22z" fill="#ffffff" opacity=".55" stroke="#9c8a74" stroke-width="3"/>
+          <g clip-path="url(#carafeClip)">
+            <g data-tw=".3-.88: y 220 30 io">
+              <rect x="680" y="600" width="240" height="260" fill="url(#coffee)"/>
+              <path d="M680 600q30-8 60 0t60 0 60 0 60 0" fill="#b3713e"/>
+            </g>
+          </g>
+          <path d="M890 640c40 10 40 90 0 110" fill="none" stroke="#9c8a74" stroke-width="10" stroke-linecap="round"/>
+          <!-- drops -->
+          <g class="drops" data-tw=".28-.32: o 0 1; .86-.9: o 1 0">
+            <circle cx="800" cy="580" r="4" fill="#6b3a1f"/><circle cx="800" cy="580" r="3.5" fill="#6b3a1f"/><circle cx="800" cy="580" r="3" fill="#6b3a1f"/>
+          </g>
+          <!-- dripper -->
+          <path d="M680 420h240l-80 140h-80z" fill="#f5ecdf" stroke="#9c8a74" stroke-width="3"/>
+          <path d="M700 430h200l-70 120h-60z" fill="#fff" opacity=".8"/>
+          <g data-tw=".18-.3: sy .4 1, o .7 1">
+            <path d="M708 440c40-20 144-20 184 0l-26 44c-40 10-92 10-132 0z" fill="#5a3320"/>
+            <ellipse cx="800" cy="445" rx="70" ry="9" fill="#7a4a2a" data-tw=".2-.32: fill #3a2116 #b88a5c"/>
+          </g>
+          <rect x="664" y="410" width="272" height="14" rx="6" fill="#c65d3b"/>
+          <!-- stream -->
+          <path class="stream" d="M640 238C700 250 790 300 800 440" fill="none" stroke="#c9dbe4" stroke-width="7" stroke-linecap="round" pathLength="1"
+                data-tw=".12-.2: d 0 1; .86-.92: o 1 0"/>
+          <!-- kettle -->
+          <g class="kettle" data-origin="646px 236px" data-tw="0-.12: r 0 22; .86-.96: r 22 0">
+            <path d="M380 210h190l20 130a20 20 0 0 1-20 22H380a20 20 0 0 1-20-22z" fill="#2b1a12"/>
+            <path d="M400 210h150c0-30-20-44-75-44s-75 14-75 44z" fill="#3d2a1f"/>
+            <rect x="455" y="148" width="40" height="16" rx="6" fill="#c8a27a"/>
+            <path d="M580 300C620 290 620 250 646 236" fill="none" stroke="#2b1a12" stroke-width="12" stroke-linecap="round"/>
+            <path d="M370 230c-60 10-60 110 0 120" fill="none" stroke="#c8a27a" stroke-width="12" stroke-linecap="round"/>
+          </g>
+          <!-- steam -->
+          <g class="steam" data-tw=".86-.95: o 0 1" fill="none" stroke="#b8a48c" stroke-width="5" stroke-linecap="round">
+            <path d="M770 590c-20-30 20-40 0-80"/><path d="M800 580c-20-30 20-40 0-80"/><path d="M830 590c-20-30 20-40 0-80"/>
+          </g>
+        </svg>
+        <div class="brew-hud" data-tw="0-.06: o 0 1, y 20 0">
+          <div><span class="hud-label">Water</span><span class="hud-value">94°C</span></div>
+          <div><span class="hud-label">Ratio</span><span class="hud-value">1:16</span></div>
+          <div><span class="hud-label">Time</span><span class="hud-value" id="brew-time">0:00</span></div>
+        </div>
+        <div class="copy copy--right">
+          <p class="kicker">Chapter 04 · The Pour</p>
+          <p class="line" data-tw="0-.06: o 0 1, y 24 0; .14-.2: o 1 0, y 0 -24">Water at <em>94°C</em>, never boiling, because boiling water scorches.</p>
+          <p class="line" data-tw=".2-.26: o 0 1, y 24 0; .38-.44: o 1 0, y 0 -24">First comes <em>the bloom</em>: a small pour, thirty seconds, while the grounds breathe out.</p>
+          <p class="line" data-tw=".44-.5: o 0 1, y 24 0; .76-.82: o 1 0, y 0 -24">Then slow circles: <em>one gram of coffee</em> for every sixteen of water.</p>
+          <p class="line" data-tw=".84-.9: o 0 1, y 24 0">Three and a half minutes later: a cup that tastes of <em>the place it came from.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 05 MENU ===================== -->
+    <section class="scene" id="menu" style="--len:420vh" data-theme="light" data-num="Chapter 05" data-name="The Passport Menu">
+      <div class="stage stage--postcards">
+        <div class="airmail airmail--top" aria-hidden="true"></div>
+        <header class="menu-head">
+          <p class="kicker">Chapter 05 · The Passport Menu</p>
+          <h2>Six cities, <em>one counter.</em></h2>
+          <p class="menu-count" aria-hidden="true"><span id="menu-index">01</span> / 06</p>
+        </header>
+        <div class="track" id="menu-track">
+          <article class="postcard">
+            <img src="assets/drinks/istanbul.svg" alt="Turkish coffee in a copper cezve" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Istanbul, Türkiye</p>
+              <h3>Türk Kahvesi</h3>
+              <p>Cardamom-kissed, brewed slowly in a copper cezve and served with a cube of rose lokum.</p>
+              <p class="postcard__price">$5.50</p>
+            </div>
+            <span class="stamp">IST</span>
+          </article>
+          <article class="postcard">
+            <img src="assets/drinks/hanoi.svg" alt="Vietnamese egg coffee in a glass" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Hanoi, Vietnam</p>
+              <h3>Cà Phê Trứng</h3>
+              <p>Dark robusta topped with a whipped cloud of egg-yolk custard. Dessert in disguise.</p>
+              <p class="postcard__price">$6.50</p>
+            </div>
+            <span class="stamp">HAN</span>
+          </article>
+          <article class="postcard">
+            <img src="assets/drinks/rome.svg" alt="Espresso with lemon peel" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Rome, Italy</p>
+              <h3>Espresso Romano</h3>
+              <p>A short, syrupy shot with a twist of Amalfi lemon peel. Drink it standing, like a Roman.</p>
+              <p class="postcard__price">$4.00</p>
+            </div>
+            <span class="stamp">ROM</span>
+          </article>
+          <article class="postcard">
+            <img src="assets/drinks/oaxaca.svg" alt="Café de olla in a clay pot with cinnamon" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Oaxaca, Mexico</p>
+              <h3>Café de Olla</h3>
+              <p>Simmered in a clay pot with cinnamon bark and dark piloncillo sugar. Warm as a market morning.</p>
+              <p class="postcard__price">$5.50</p>
+            </div>
+            <span class="stamp">OAX</span>
+          </article>
+          <article class="postcard">
+            <img src="assets/drinks/kyoto.svg" alt="Matcha latte in a ceramic bowl" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Kyoto, Japan</p>
+              <h3>Uji Matcha Latte</h3>
+              <p>Stone-ground ceremonial matcha, whisked by hand and finished with steamed oat milk.</p>
+              <p class="postcard__price">$6.00</p>
+            </div>
+            <span class="stamp">KYO</span>
+          </article>
+          <article class="postcard">
+            <img src="assets/drinks/marrakech.svg" alt="Moroccan mint tea poured from a silver teapot" loading="lazy">
+            <div class="postcard__body">
+              <p class="postcard__place">Marrakech, Morocco</p>
+              <h3>Atay b'Nana</h3>
+              <p>Gunpowder green tea with a fistful of fresh mint, poured from a height for a frothy crown.</p>
+              <p class="postcard__price">$4.50</p>
+            </div>
+            <span class="stamp">RAK</span>
+          </article>
+        </div>
+        <div class="airmail airmail--bottom" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 06 WINDOW ===================== -->
+    <section class="scene" id="window" style="--len:340vh" data-theme="dark" data-num="Chapter 06" data-name="The Window">
+      <div class="stage">
+        <svg class="art" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <clipPath id="pane"><rect x="520" y="140" width="560" height="460" rx="6"/></clipPath>
+            <radialGradient id="lamp"><stop offset="0" stop-color="#ffd98f" stop-opacity=".55"/><stop offset="1" stop-color="#ffd98f" stop-opacity="0"/></radialGradient>
+          </defs>
+          <rect width="1600" height="900" fill="#3a241a"/>
+          <g fill="#43291e"><rect x="0" y="0" width="1600" height="40"/><path d="M0 120h1600" stroke="#2f1d15" stroke-width="2"/></g>
+          <g clip-path="url(#pane)">
+            <!-- Paris -->
+            <g data-tw=".3-.4: o 1 0">
+              <rect x="520" y="140" width="560" height="460" fill="#f2c6a8"/>
+              <circle cx="930" cy="260" r="46" fill="#fbe2c2"/>
+              <g data-tw="0-.4: x 0 -40 l" fill="#6a4a5a">
+                <path d="M800 600L790 520h-30l25-110h-12l20-100 2-60 2 60 20 100h-12l25 110h-30l-10 80z"/>
+                <path d="M766 520h68" stroke="#6a4a5a" stroke-width="6"/>
+              </g>
+              <g fill="#8a6070" data-tw="0-.4: x 0 -80 l">
+                <path d="M480 600V500h70l20-30 20 30h60v-20h14v20h70v100zM900 600V520h50l26-36 26 36h60v-24h14v24h60v80z"/>
+              </g>
+            </g>
+            <!-- Kyoto -->
+            <g data-tw=".3-.4: o 0 1; .63-.73: o 1 0">
+              <rect x="520" y="140" width="560" height="460" fill="#f6dcd6"/>
+              <circle cx="660" cy="250" r="44" fill="#e2715a" opacity=".85"/>
+              <path d="M480 560Q640 420 820 520T1140 480V600H480z" fill="#c9a2a8" data-tw=".3-.73: x 0 -40 l"/>
+              <g fill="#5a3a40" data-tw=".3-.73: x 30 -30 l">
+                <rect x="900" y="300" width="8" height="300"/>
+                <path d="M850 330h108l-20-26h-68zM860 400h88l-18-24h-52zM866 460h76l-16-22h-44zM872 520h64l-14-20h-36zM878 580h52l-12-18h-28z"/>
+              </g>
+              <g class="petals" fill="#f19aae" data-tw=".3-.73: y -40 80 l, x 0 -60 l">
+                <circle cx="600" cy="320" r="5"/><circle cx="700" cy="400" r="4"/><circle cx="780" cy="260" r="5"/><circle cx="980" cy="380" r="4"/><circle cx="1040" cy="300" r="5"/><circle cx="640" cy="470" r="4"/>
+              </g>
+            </g>
+            <!-- Marrakech -->
+            <g data-tw=".63-.73: o 0 1">
+              <rect x="520" y="140" width="560" height="460" fill="#f4b07a"/>
+              <circle cx="980" cy="240" r="50" fill="#fde0b0"/>
+              <g fill="#b0583a" data-tw=".63-1: x 20 -30 l">
+                <rect x="720" y="260" width="70" height="340"/><rect x="730" y="230" width="50" height="30"/><rect x="748" y="200" width="14" height="30"/><circle cx="755" cy="196" r="7"/>
+                <path d="M480 600V500h600v100z"/>
+              </g>
+              <g fill="#f4b07a"><path d="M560 600v-60a24 24 0 0 1 48 0v60zM640 600v-60a24 24 0 0 1 48 0v60zM840 600v-60a24 24 0 0 1 48 0v60zM920 600v-60a24 24 0 0 1 48 0v60z"/></g>
+              <g fill="#3f5a3a" data-tw=".63-1: x 0 -60 l">
+                <path d="M1000 600l6-180h6l6 180z"/><path d="M1009 420c-40-10-70 10-80 30 30-14 56-18 80-30zm0 0c40-10 70 10 80 30-30-14-56-18-80-30zm0 0c-20-30-50-34-70-30 26 6 50 16 70 30zm0 0c20-30 50-34 70-30-26 6-50 16-70 30z"/>
+              </g>
+            </g>
+          </g>
+          <!-- window frame -->
+          <rect x="510" y="130" width="580" height="480" rx="10" fill="none" stroke="#6b4530" stroke-width="22"/>
+          <path d="M800 140v460M520 370h560" stroke="#6b4530" stroke-width="12"/>
+          <rect x="490" y="610" width="620" height="22" rx="4" fill="#7a5038"/>
+          <!-- plant -->
+          <g transform="translate(1010 0)"><path d="M380 700c-40-120 20-200 60-220-20 80-30 150-60 220zM400 700c10-120 90-170 140-170-50 50-90 110-140 170zM370 700c-80-80-80-160-50-200 10 70 30 130 50 200z" fill="#5f7a4c"/><path d="M340 700h100l-14 90h-72z" fill="#c65d3b"/></g>
+          <!-- lamp -->
+          <g class="lamp-swing">
+            <path d="M1300 0v190" stroke="#1b120d" stroke-width="3"/>
+            <path d="M1250 230h100l-20-44h-60z" fill="#c8a27a"/>
+            <circle cx="1300" cy="300" r="220" fill="url(#lamp)"/>
+          </g>
+          <!-- table + cup -->
+          <rect x="0" y="790" width="1600" height="110" fill="#5a3324"/>
+          <rect x="0" y="780" width="1600" height="16" fill="#7a4a34"/>
+          <g transform="translate(1140 690)">
+            <ellipse cx="0" cy="96" rx="110" ry="16" fill="#e9d8bf"/>
+            <path d="M-70 0h140l-12 80a18 18 0 0 1-18 16H-60a18 18 0 0 1-18-16z" fill="#f5ecdf"/>
+            <path d="M70 20h16a22 22 0 0 1 0 44H66" fill="none" stroke="#f5ecdf" stroke-width="12"/>
+            <ellipse cx="0" cy="0" rx="70" ry="12" fill="#6b3a1f"/>
+            <g class="steam" fill="none" stroke="#e9d8bf" stroke-width="5" stroke-linecap="round" opacity=".7"><path d="M-24-20c-20-30 20-40 0-80"/><path d="M8-24c-20-30 20-40 0-80"/><path d="M40-20c-20-30 20-40 0-80"/></g>
+          </g>
+          <g transform="translate(300 760) rotate(-8)">
+            <rect width="150" height="104" rx="8" fill="#6b1f24"/><rect x="8" y="8" width="134" height="88" rx="4" fill="none" stroke="#d9b56b" stroke-width="2"/>
+            <circle cx="75" cy="44" r="16" fill="none" stroke="#d9b56b" stroke-width="2"/><text x="75" y="84" text-anchor="middle" font-family="Fraunces, serif" font-size="12" fill="#d9b56b" letter-spacing="3">PASSPORT</text>
+          </g>
+        </svg>
+        <div class="season" aria-hidden="true">
+          <p class="kicker">Chapter 06 · The Window</p>
+          <p class="season__label">This season:
+            <span class="season__city" data-tw=".3-.36: o 1 0">Paris</span>
+            <span class="season__city" data-tw=".34-.4: o 0 1; .63-.69: o 1 0">Kyoto</span>
+            <span class="season__city" data-tw=".67-.73: o 0 1">Marrakech</span>
+          </p>
+        </div>
+        <div class="copy copy--left copy--window">
+          <p class="line" data-tw="0-.06: o 0 1, y 24 0; .26-.32: o 1 0, y 0 -24"><strong class="big">Every season, <em>our window travels.</em></strong></p>
+          <p class="line" data-tw=".33-.39: o 0 1, y 24 0; .58-.64: o 1 0, y 0 -24">For three months at a time the café takes up residence in a new city: <em>its music, its pastries, its rituals.</em></p>
+          <p class="line" data-tw=".66-.72: o 0 1, y 24 0">Same table. Same corner. <em>A different world outside.</em></p>
+        </div>
+        <div class="quotes">
+          <blockquote data-tw=".04-.1: o 0 1, x 30 0; .26-.32: o 1 0"><p>“I came for a croissant and stayed for the accordion records.”</p><cite>Léa, regular since Paris season</cite></blockquote>
+          <blockquote data-tw=".38-.44: o 0 1, x 30 0; .6-.66: o 1 0"><p>“The matcha ceremony on Sunday mornings is the calmest hour of my week.”</p><cite>Kenji, visiting from Osaka</cite></blockquote>
+          <blockquote data-tw=".72-.78: o 0 1, x 30 0"><p>“They pour mint tea from a metre up. I clapped. Everyone clapped.”</p><cite>Amira, first visit</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EPILOGUE: VISIT ===================== -->
+    <section class="scene" id="visit" style="--len:200vh" data-theme="light" data-num="Epilogue" data-name="Your Table">
+      <div class="stage stage--visit">
+        <svg class="big-cup" viewBox="0 0 400 360" aria-hidden="true" data-tw=".55-.75: s 1 .7 io, y 0 -22vh io">
+          <defs>
+            <clipPath id="cupClip"><path d="M60 80h260l-24 190a40 40 0 0 1-40 34H124a40 40 0 0 1-40-34z"/></clipPath>
+          </defs>
+          <ellipse cx="190" cy="318" rx="170" ry="26" fill="#e3cfb2"/>
+          <path d="M60 80h260l-24 190a40 40 0 0 1-40 34H124a40 40 0 0 1-40-34z" fill="#fffaf2" stroke="#2b1a12" stroke-width="5"/>
+          <g clip-path="url(#cupClip)">
+            <g data-tw="0-.55: y 0 240 io">
+              <rect x="40" y="88" width="300" height="240" fill="#6b3a1f"/>
+              <ellipse cx="190" cy="90" rx="130" ry="14" fill="#a8693a"/>
+              <path d="M160 92c10-14 50-14 60 0-10 12-50 12-60 0zM190 82v20" stroke="#f5ecdf" stroke-width="4" fill="none" stroke-linecap="round"/>
+            </g>
+          </g>
+          <path d="M318 110h20a44 44 0 0 1 0 88h-30" fill="none" stroke="#2b1a12" stroke-width="10" stroke-linecap="round"/>
+          <path d="M60 80h260" stroke="#2b1a12" stroke-width="5"/>
+          <g class="steam" fill="none" stroke="#c8a27a" stroke-width="6" stroke-linecap="round" data-tw="0-.3: o .8 0">
+            <path d="M150 60c-20-30 20-40 0-80"/><path d="M190 56c-20-30 20-40 0-80"/><path d="M230 60c-20-30 20-40 0-80"/>
+          </g>
+        </svg>
+        <p class="empty-line" data-tw=".2-.3: o 0 1, y 20 0; .52-.6: o 1 0"><em>Your cup is empty.</em></p>
+        <div class="visit-card" data-tw=".58-.75: o 0 1, y 60 0">
+          <p class="kicker">Epilogue · Your Table</p>
+          <h2>Come as a guest.<br><em>Leave as a traveller.</em></h2>
+          <dl class="visit-info">
+            <div><dt>Find us</dt><dd>12 Wanderer's Lane<br>Old Harbour District</dd></div>
+            <div><dt>Open</dt><dd>Mon–Fri · 7:00–19:00<br>Sat–Sun · 8:00–20:00</dd></div>
+            <div><dt>This season</dt><dd>Marrakech residency<br>Mint tea ceremony, Sundays at 11</dd></div>
+          </dl>
+          <div class="visit-actions">
+            <a class="btn btn--primary" href="mailto:hello@travelcafe.example?subject=Table%20reservation">Reserve a table</a>
+            <a class="btn btn--ghost" href="#menu">See the menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <img src="assets/logo.svg" alt="" width="44" height="44">
+    <p>Travel Café · Every cup has a passport.</p>
+    <a href="#prologue" class="rewind">↺ Begin the journey again</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

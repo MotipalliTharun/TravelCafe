@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><title>Café de Olla in a clay pot</title>
+  <rect width="400" height="300" fill="#7d3c6b"/>
+  <circle cx="200" cy="150" r="130" fill="#924b80"/>
+  <g fill="#f2b84b"><path d="M50 60l10 22 22 10-22 10-10 22-10-22-22-10 22-10z"/><path d="M350 200l8 16 16 8-16 8-8 16-8-16-16-8 16-8z"/></g>
+  <path d="M140 140c0-14 120-14 120 0 18 10 22 40 10 64-14 30-126 30-140 0-12-24-8-54 10-64z" fill="#b5532c"/>
+  <path d="M135 175c40 12 90 12 130 0" stroke="#f2e2c4" stroke-width="5" fill="none" stroke-dasharray="10 8"/>
+  <ellipse cx="200" cy="140" rx="60" ry="10" fill="#3b2015"/>
+  <path d="M255 150c22-4 30 20 10 34" fill="none" stroke="#b5532c" stroke-width="9" stroke-linecap="round"/>
+  <g transform="rotate(-25 290 230)"><rect x="250" y="224" width="90" height="12" rx="6" fill="#a7653a"/><path d="M256 230h78" stroke="#7a4425" stroke-width="2" stroke-dasharray="6 6"/></g>
+  <g transform="rotate(-10 110 240)"><rect x="70" y="234" width="80" height="12" rx="6" fill="#a7653a"/></g>
+  <path d="M180 120c-8-14 8-18 0-34M210 118c-8-14 8-18 0-34" fill="none" stroke="#f5ecdf" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><title>Türk Kahvesi in a copper cezve</title>
+  <rect width="400" height="300" fill="#1f4b5a"/>
+  <g fill="#2a6273" opacity=".7"><circle cx="200" cy="150" r="130"/></g>
+  <g fill="none" stroke="#d9b56b" stroke-width="2" opacity=".5"><path d="M40 40l20 20-20 20-20-20zM360 40l20 20-20 20-20-20zM40 220l20 20-20 20-20-20zM360 220l20 20-20 20-20-20z"/></g>
+  <path d="M130 120h80l-8 90a12 12 0 0 1-12 10h-40a12 12 0 0 1-12-10z" fill="#c4763a"/>
+  <path d="M130 120h80l-2 18h-76z" fill="#e0955a"/>
+  <path d="M208 132l90-30 6 10-90 34z" fill="#8a4f24"/>
+  <ellipse cx="170" cy="120" rx="40" ry="7" fill="#3a1f12"/>
+  <path d="M235 230h70l-6 24h-58z" fill="#f5ecdf"/><path d="M232 230h76" stroke="#d9b56b" stroke-width="4"/>
+  <ellipse cx="270" cy="230" rx="35" ry="5" fill="#2b1a12"/>
+  <path d="M225 256h90" stroke="#d9b56b" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#f3c7d2"><rect x="70" y="232" width="22" height="22" rx="4"/><rect x="96" y="238" width="22" height="22" rx="4"/></g>
+  <path d="M160 100c-8-14 8-18 0-34M180 104c-8-14 8-18 0-34" fill="none" stroke="#f5ecdf" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><title>Atay b'Nana mint tea</title>
+  <rect width="400" height="300" fill="#2f6b55"/>
+  <circle cx="200" cy="150" r="130" fill="#3a7f66"/>
+  <path d="M40 300V120a40 40 0 0 1 80 0v180M280 300V120a40 40 0 0 1 80 0v180" fill="none" stroke="#e7c27d" stroke-width="4" opacity=".45"/>
+  <path d="M150 230c-30 0-40-50-10-70l10-30h60l10 30c30 20 20 70-10 70z" fill="#d9dde0"/>
+  <path d="M150 130h60l-6-14h-48z" fill="#bfc5ca"/><circle cx="180" cy="108" r="8" fill="#bfc5ca"/>
+  <path d="M220 175c40-20 50-40 70-60" fill="none" stroke="#d9dde0" stroke-width="9" stroke-linecap="round"/>
+  <path d="M135 180c-25 0-25-30 0-30" fill="none" stroke="#bfc5ca" stroke-width="7"/>
+  <path d="M288 118c4 30 8 70 10 100" stroke="#e7b75a" stroke-width="3" opacity=".8"/>
+  <path d="M278 210h40l-4 40h-32z" fill="#c95a3f" opacity=".75"/><path d="M280 220h36" stroke="#e7c27d" stroke-width="3"/>
+  <g fill="#7fc47a"><path d="M300 200c8-12 20-12 22-4-8 8-14 8-22 4z"/><path d="M296 202c-6-12-16-14-20-6 6 8 12 8 20 6z"/></g>
+  <path d="M120 240h160" stroke="#e7c27d" stroke-width="6" stroke-linecap="round"/>
+</svg>

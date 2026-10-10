@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><title>Cà Phê Trứng egg coffee</title>
+  <rect width="400" height="300" fill="#e7b33a"/>
+  <circle cx="200" cy="150" r="130" fill="#f1c95e"/>
+  <g fill="#c94a2f" opacity=".85"><path d="M60 50c0-14 30-14 30 0v20c0 10-30 10-30 0z"/><path d="M310 40c0-14 30-14 30 0v20c0 10-30 10-30 0z"/></g>
+  <path d="M75 50v-14M325 40v-14" stroke="#5a2a1a" stroke-width="2"/>
+  <path d="M120 250h160l-10 20H130z" fill="#7a4a2a"/>
+  <path d="M150 140h100l-8 105h-84z" fill="#fff8e6" opacity=".55"/>
+  <path d="M154 190h92l-4 55h-84z" fill="#3a2116"/>
+  <path d="M152 145h96l-4 46h-88z" fill="#ffe7a3"/>
+  <path d="M150 140c10-14 30-4 50-12s40 2 50 12" fill="#fff1c4"/>
+  <path d="M120 250c0-26 160-26 160 0z" fill="#4a8bb0" opacity=".9"/>
+  <path d="M120 250h160" stroke="#2b5c78" stroke-width="3"/>
+</svg>
